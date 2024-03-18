@@ -262,3 +262,54 @@ Scorecard Management
 <br>
 Test: Scorecard initialization with all categories empty (scores set to None).
 Expected Output: Dictionary or data structure representing the scorecard with all categories having a score of None
+<br>
+Testing the Yahtzee scorer code involves verifying that each function behaves as expected, handles various inputs correctly, and produces the correct output. Here's a testing strategy and the journey through it:
+<br>
+Test roll_dice function:
+<br>
+Test that it returns a list of the correct length (5).
+Test that each die roll falls within the valid range (1 to 6).
+Test multiple rolls to ensure randomness.
+Test reroll_dice function:
+<br>
+Test that it correctly rerolls the specified dice.
+Test rerolling all dice.
+Test rerolling none of the dice.
+Test print_dice function:
+<br>
+Manually inspect output to ensure it displays dice rolls correctly.
+Test calculate_score function:
+<br>
+Test various scoring categories with known dice rolls to ensure correct scoring.
+Test for edge cases, such as no matching dice for a category.
+Test for a Yahtzee (all dice showing the same value).
+Test choose_category function:
+<br>
+Test that it prompts the user to choose a category.
+Test that it rejects invalid categories.
+Test that it rejects categories that have already been scored.
+Test play_round function:
+<br>
+Test a complete round with known dice rolls and category choices.
+Test for correct updating of scores.
+Test for correct handling of rerolls.
+Test main function:
+<br>
+Manually run the game and verify that it proceeds through all rounds.
+Manually input known dice rolls and category choices to verify scoring.
+Test edge cases:
+<br>
+Test with extreme values, such as all ones or all sixes.
+Test with different combinations of dice rolls and category choices.
+Test error handling:
+
+Test providing invalid inputs to functions and ensure they handle errors gracefully.
+Test randomness:<br>
+<br>
+Test randomness of dice rolls by running the roll_dice function multiple times and ensuring the results vary.
+<br>
+Throughout this testing journey, document each test case, its expected outcome, and the actual outcome. If any discrepancies are found, debug the code to identify and fix the issues. Once all tests pass satisfactorily, the Yahtzee scorer code can be considered thoroughly tested and reliable for use.
+
+
+
+
