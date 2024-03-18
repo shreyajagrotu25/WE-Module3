@@ -1,5 +1,7 @@
 <h1>Yahtzee Gemini Chat</h1>
-<a>https://g.co/gemini/share/b4392ee9cc18</a>
+[https://g.co/gemini/share/b4392ee9cc18](https://g.co/gemini/share/b4392ee9cc18)
+<br>
+<!-- <a>https://g.co/gemini/share/b4392ee9cc18</a><br> -->
 Conversation with Gemini
 profile picture
 how to play the game of yahtzee?
