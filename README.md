@@ -1,7 +1,8 @@
 # WE-Module3
 Generative AI Coursework<br>
 
-Assignment 01 : 
+Assignment 01 : This is a colon: :
+
 Pick any non-trivial problem statement from your computational thinking course and ask 
 genAI to solve it. Iterate upon its solution to apply our principles of clean code.<br>
 
