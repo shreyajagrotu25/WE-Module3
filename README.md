@@ -1,5 +1,5 @@
 # WE-Module3
-WE-Module3: Generative AI Coursework<br>
+Generative AI Coursework<br>
 
 Assignment 01
 Pick any non-trivial problem statement from your computational thinking course and ask 
