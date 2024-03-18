@@ -1,3 +1,4 @@
+<h1>Yahtzee Code and Test Cases</h1>
 Conversation with Gemini
 profile picture
 how to play the game of yahtzee?
